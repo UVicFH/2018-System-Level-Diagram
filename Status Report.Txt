@@ -1,0 +1,11 @@
+Output: Racal Netlist
+Type  : RacalNetlist
+From  : Project [Free Documents]
+   Generated File[SystemLevelDiagram.NET]
+   Generated File[SystemLevelDiagram.PRT]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 9:50:44 PM On 2/27/2018

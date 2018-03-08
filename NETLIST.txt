@@ -1,0 +1,696 @@
+Wire List
+
+<<< Component List >>>
+Antenna                                        PIN1
+20A Stator Fuse                 20A STATO      
+80A GLVMasterFuse               80A GLV M
+MABX                            127 PIN M      
+Accel1Pedal_Pot                 Accelerat
+Accel2Pedal_Pot                 Accelerat      
+14 Pin Connector                AMS 14 PI      TE Connectivity 14 Pin
+NO                              AMS SHUTD      MODULE4
+Stator                          B?             RB5-10.5
+Header 2                        BIG CABLE      HDR1X2
+2 Pin GT150                     BOOTLOADE      
+Header 3                        BRAKE LIG      HDR1X3                                                                                                                                                                         v
+Brake Overtravel                BRAKE OVE      
+Brake Solenoid  2Pin GT150      BRAKE SOL
+Cockpit BRB                     COCKPIT B
+ENG_Fan  2Pin GT150             ENGINE FA      
+2 Pin GT150                     ENGINE ST      
+2x Spade                        ENGINE ST      
+14 Pin Connector                ESS CONTA      TE Connectivity 14 Pin
+Header 2                        ESS Conta      HDR1X2
+Header 2                        ESS Conta      HDR1X2
+Header 2                        ESS CONTA      HDR1X2
+ETB_Controller  20Pin MX150     ETB CONTR      
+ETB  6Pin GT150                 ETB GT150      
+F_BrakePressureTransducer  3 Pin GT150F_BrakePr      
+Header 3                        FL SUSP T      HDR1X3
+FL_Wheel_Speed_Sensor  3 Pin GT150FL Wheel       
+Please cross reference PCB before pinningFPDU NonS
+Please cross reference PCB before pinningFRONT PDU      HDR1X8
+Header 3                        FR SUSP T      HDR1X3
+FR_Wheel_Speed_Sensor  3 Pin GT150FR Wheel       
+GLVMS                           GLVMS GRO      
+Header 2                        IMD MX150      HDR1X2
+CROSS REFERENCE WITH BOARD AND CONNECTORIMD MX150      HDR1X8
+NO                              IMD SHUTD      MODULE4
+Header 1                        ISO BOARD      2 Pin Screw Terminal
+Header 2                        ISO BOARD      HDR1X2
+Header 14                       J1 Kelly       HDR1X14
+Header 14                       J1 Kelly       HDR1X14
+Left BRB                        LEFT BRB
+12V_Battery                     LI-ION 12      
+12V_Battery                     LI-ION 12      
+12V_Battery                     LI-ION 12      
+20A  MainLoadFuseB              MAIN INST
+Microsquirt                     MICROSQUI      
+Header 3                        Motor Con      HDR1X3
+MHDR1X2                         Motor Ter      MHDR1X2
+Header 10                       P?             HDR1X10
+Header 3                        P?             3 Pos wire to board
+Header 3                        P?             3 Pos wire to board
+Header 3                        P?             3 Pos wire to board
+Header 2                        P?             2 Pos wire to board
+Dash                            P?
+Res1                            R?             AXIAL-0.3
+R_BrakePressureTransducer  3 Pin GT150R_BrakePr
+Header 6                        REAR WHEE      HDR1X6
+Right BRB                       RIGHT BRB      
+Header 3                        RL SUSP T      HDR1X3
+CPBRB To Fused Outputs on RPDU  RPDU MX 1      HDR1X2
+Header 3                        RR SUSP T      HDR1X3
+Serial_Connector                SERIAL CO      
+Shifter_Valves 4 Pin GT150      Shifter
+SPARK PLUG                      SPARK PLU      
+Spark Plug Coil                 SPARK PLU      
+Coil Connector  6Pin GT150      SPARK PLU      
+SSOK Lamp Left                  SSOK LAMP      
+SSOK Lamp Right                 SSOK LAMP
+Relay-SPST                      STARTER R      MODULE4
+Starter Relay  2Pin GT150       STARTER R      
+Stator Rectifier                STATOR RE      
+TSAL  12V 0.3A                  TSAL           PIN2
+Header 2X2                      TSAL GT15      HDR2X2
+Header 2                        TS IN          HDR1X2
+TSMS                            TSMS MOUN      
+Shifter_HallSensor_Down         U?             
+Shifter_HallSensor_Up           U?             
+Switched 20pin MX150            X1 TOP RP      
+Switched 20pin MX150            X2 BOTTOM      
+StarterMotor                    X011
+Dash_Connector  20Pin MX150     X031           
+GYRO  4 PIN HEADER-BASED CONNECTORX043           
+LOGGER  Spliced USB             X044           
+Shift Piston  4 Pin GT150       X046           RAD-0.3
+Enigne MS connector  10Pin GT150X052           RAD-0.3
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] 1 RED 20 AWG
+        F_BrakePr  1       +5V            PASSIVE     F_BrakePressureTransducer  3 Pin GT150
+        FPDU NonS  7       BRAKE PRESS TRAPASSIVE     Please cross reference PCB before pinning
+        R_BrakePr  1       +5V            PASSIVE     R_BrakePressureTransducer  3 Pin GT150
+
+[00002] 2 WHITE 20 AWG
+        F_BrakePr  3       Output         PASSIVE     F_BrakePressureTransducer  3 Pin GT150
+
+[00003] 3 WHITE 20 AWG
+        R_BrakePr  3       Output         PASSIVE     R_BrakePressureTransducer  3 Pin GT150
+
+[00004] 4 RED 20 AWG
+        Accelerat  1       +5V            PASSIVE     Accel1Pedal_Pot
+        Accelerat  1       +5V            PASSIVE     Accel2Pedal_Pot
+        FPDU NonS  17      ACCEL 1 5V     PASSIVE     Please cross reference PCB before pinning
+        FPDU NonS  18      ACCEL 2 5V     PASSIVE     Please cross reference PCB before pinning
+
+[00005] 5 WHITE 20 AWG
+        Accelerat  2       Output         PASSIVE     Accel1Pedal_Pot
+
+[00006] 6 WHITE 20 AWG
+        Accelerat  2       Output         PASSIVE     Accel2Pedal_Pot
+
+[00007] 7 RED 20 AWG
+        FL Wheel   1       +5V            PASSIVE     FL_Wheel_Speed_Sensor  3 Pin GT150
+        FPDU NonS  12      WHEEL SPEED L 5PASSIVE     Please cross reference PCB before pinning
+        FPDU NonS  13      WHEEL SPEED R 5PASSIVE     Please cross reference PCB before pinning
+        FR Wheel   1       +5V            PASSIVE     FR_Wheel_Speed_Sensor  3 Pin GT150
+
+[00008] 8 WHITE 20 AWG
+        FR Wheel   3       Output         PASSIVE     FR_Wheel_Speed_Sensor  3 Pin GT150
+
+[00009] 9 WHITE 20 AWG
+        FL Wheel   3       Output         PASSIVE     FL_Wheel_Speed_Sensor  3 Pin GT150
+
+[00010] 11 WHITE 20 AWG
+        REAR WHEE  3       3              PASSIVE     Header 6
+
+[00011] 12 WHITE 20 AWG
+        REAR WHEE  4       4              PASSIVE     Header 6
+
+[00012] 13 RED 20 AWG MULTI COND SHEILDED
+        J1 Kelly   THROTTL 5              PASSIVE     Header 14
+
+[00013] 14 RED 20 AWG MULTI COND SHEILDED
+        J1 Kelly   BRAKE A 6              PASSIVE     Header 14
+
+[00014] 15 RED 20 AWG
+        J1 Kelly   PWR IN  1              PASSIVE     Header 14
+        X1 TOP RP  KELLY C 18             PASSIVE     Switched 20pin MX150
+
+[00015] 17 RED 14 AWG
+        TSMS MOUN  2       NO             PASSIVE     TSMS
+        X1 TOP RP  TSMS SU 9              PASSIVE     Switched 20pin MX150
+
+[00016] 18 RED 20 AWG
+        AMS SHUTD  1       1              PASSIVE     NO
+        BRAKE OVE  2       NO             PASSIVE     Brake Overtravel
+        COCKPIT B  1       1              PASSIVE     Cockpit BRB
+        IMD SHUTD  2       2              PASSIVE     NO
+        SSOK LAMP  1       +12V           PASSIVE     SSOK Lamp Left
+        SSOK LAMP  1       +12V           PASSIVE     SSOK Lamp Right
+
+[00017] 19 RED 20 AWG
+        X2 BOTTOM  STARTER 11             PASSIVE     Switched 20pin MX150
+
+[00018] 20 IMP COLOR 20 AWG
+        IMD MX150  OKHS    8              PASSIVE     CROSS REFERENCE WITH BOARD AND CONNECTOR
+        X2 BOTTOM  IMD STA 4              PASSIVE     Switched 20pin MX150
+
+[00019] 21 IMP COLOR 20 AWG
+        X2 BOTTOM  AMS STA 12             PASSIVE     Switched 20pin MX150
+
+[00020] 21 IMP COLOR 20 AWG SHIELDED
+        ESS CONTA  5       AMS STATUS     PASSIVE     14 Pin Connector
+
+[00021] 22 RED 20 AWG
+        IMD MX150  KI.15   2              PASSIVE     CROSS REFERENCE WITH BOARD AND CONNECTOR
+        X1 TOP RP  SPARE 1 19             PASSIVE     Switched 20pin MX150
+
+[00022] 23 RED 20 AWG
+        ESS CONTA  3       RBRB 12V       PASSIVE     14 Pin Connector
+        ESS CONTA  4       RBRB 12V       PASSIVE     14 Pin Connector
+        X1 TOP RP  AMS LOG 1              PASSIVE     Switched 20pin MX150
+
+[00023] 24 RED 20 AWG
+        REAR WHEE  1       1              PASSIVE     Header 6
+        REAR WHEE  2       2              PASSIVE     Header 6
+        X1 TOP RP  WHEEL S 2              PASSIVE     Switched 20pin MX150
+
+[00024] 25 RED 20 AWG
+        BRAKE LIG  1       1              PASSIVE     Header 3
+        X2 BOTTOM  BRAKE L 17             PASSIVE     Switched 20pin MX150
+
+[00025] 26 RED 20 AWG
+        ISO BOARD  1       TSVP12         PASSIVE     Header 1
+        TSAL GT15  1       1              PASSIVE     Header 2X2
+
+[00026] 27 RED 20 AWG IN CONDUIT
+        ESS Conta  1       1              PASSIVE     Header 2
+        IMD MX150  1       1              PASSIVE     Header 2
+
+[00027] 28 BLK 20 AWG IN CONDUIT
+        ESS Conta  2       2              PASSIVE     Header 2
+        IMD MX150  2       2              PASSIVE     Header 2
+
+[00028] 29 RED 20 AWG IN CONDUIT
+        ESS Conta  1       1              PASSIVE     Header 2
+        ISO BOARD  1       1              PASSIVE     Header 2
+
+[00029] 30 BLK 20 AWG IN CONDUIT
+        ESS Conta  2       2              PASSIVE     Header 2
+        ISO BOARD  2       2              PASSIVE     Header 2
+
+[00030] 31 RED 18 AWG
+        127 PIN M  1       +12V           PASSIVE     MABX
+        FPDU NonS  8       MABX 12V       PASSIVE     Please cross reference PCB before pinning
+
+[00031] 32 WHITE 20 AWG
+        FPDU NonS  16      MABX REF 5V    PASSIVE     Please cross reference PCB before pinning
+
+[00032] 33 RED 20 AWG
+        FL SUSP T  1       1              PASSIVE     Header 3
+        FPDU NonS  14      SUSP TRAVEL L 5PASSIVE     Please cross reference PCB before pinning
+        FPDU NonS  15      SUSP TRAVEL R 5PASSIVE     Please cross reference PCB before pinning
+        FR SUSP T  1       1              PASSIVE     Header 3
+        RL SUSP T  1       1              PASSIVE     Header 3
+        RR SUSP T  1       1              PASSIVE     Header 3
+
+[00033] 38 RED 20 AWG
+        STARTER R  1       +12V           PASSIVE     Starter Relay  2Pin GT150
+
+[00034] 39 RED 18 AWG
+        BRAKE SOL  1       +12V           PASSIVE     Brake Solenoid  2Pin GT150
+        X2 BOTTOM  BRAKE S 6              PASSIVE     Switched 20pin MX150
+
+[00035] 40 RED 18 AWG
+        ENGINE FA  1       +12V           PASSIVE     ENG_Fan  2Pin GT150
+        X2 BOTTOM  ENGINE  5              PASSIVE     Switched 20pin MX150
+
+[00036] 41 RED 8 AWG
+        STARTER R  2       2              PASSIVE     Relay-SPST
+        X011       1       1              PASSIVE     StarterMotor
+
+[00037] 42 RED 8 AWG
+        GLVMS GRO  M2      3              PASSIVE     GLVMS
+        MAIN INST  1       1              PASSIVE     20A  MainLoadFuseB
+        STARTER R  1       1              PASSIVE     Relay-SPST
+
+[00038] 43 RED 16 AWG
+
+[00039] 44 RED 16 AWG
+
+[00040] 46 RED 16 AWG
+        ENGINE ST  1       1              PASSIVE     2 Pin GT150
+        GLVMS GRO  W2      3              PASSIVE     GLVMS
+        GLVMS GRO  Z2      3              PASSIVE     GLVMS
+
+[00041] 47 RED 8 AWG
+        20A STATO  1       1              PASSIVE     20A Stator Fuse
+        80A GLV M  2       2              PASSIVE     80A GLVMasterFuse
+        GLVMS GRO  M1      5              PASSIVE     GLVMS
+
+[00042] 48 RED 16 AWG
+
+[00043] 50 RED 16 AWG
+        GLVMS GRO  W1      3              PASSIVE     GLVMS
+        R?         2       2              PASSIVE     Res1
+
+[00044] 51 RED 8 AWG
+        80A GLV M  1       1              PASSIVE     80A GLVMasterFuse
+        LI-ION 12  1       +12V           PASSIVE     12V_Battery
+        LI-ION 12  1       +12V           PASSIVE     12V_Battery
+        LI-ION 12  1       +12V           PASSIVE     12V_Battery
+
+[00045] 52 RED 16 AWG
+        BRAKE OVE  1       COMMON         PASSIVE     Brake Overtravel
+        FRONT PDU  1       RBRB           PASSIVE     Please cross reference PCB before pinning
+        FRONT PDU  2       RBRB           PASSIVE     Please cross reference PCB before pinning
+        FRONT PDU  3       RBRB           PASSIVE     Please cross reference PCB before pinning
+        FRONT PDU  4       RBRB           PASSIVE     Please cross reference PCB before pinning
+        FRONT PDU  5       RBRB           PASSIVE     Please cross reference PCB before pinning
+        X1 TOP RP  RBRB    13             PASSIVE     Switched 20pin MX150
+
+[00046] 53 RED 16 AWG
+        COCKPIT B  2       2              PASSIVE     Cockpit BRB
+        RPDU MX 1  1       1              PASSIVE     CPBRB To Fused Outputs on RPDU
+
+[00047] AIR-
+        P?         3       3              PASSIVE     Header 3
+
+[00048] ALREADY ON ENGINE
+        B?         1       1              PASSIVE     Stator
+
+[00049] BAT GND
+        ENGINE ST  2       2              PASSIVE     2 Pin GT150
+        LI-ION 12  2       GND            PASSIVE     12V_Battery
+        LI-ION 12  2       GND            PASSIVE     12V_Battery
+        LI-ION 12  2       GND            PASSIVE     12V_Battery
+
+[00050] BATT GND
+
+[00051] BROWN 20 AWG
+        BOOTLOADE  1       1              PASSIVE     2 Pin GT150
+        MICROSQUI  34      O2             PASSIVE     Microsquirt
+
+[00052] CHARGER
+        P?         2       2              PASSIVE     Header 3
+
+[00053] CLT
+        ETB CONTR  1       OUTA           PASSIVE     ETB_Controller  20Pin MX150
+        ETB CONTR  7       PWM            PASSIVE     ETB_Controller  20Pin MX150
+        ETB GT150  5       MotorA         PASSIVE     ETB  6Pin GT150
+        MICROSQUI  25      CLT            PASSIVE     Microsquirt
+        X052       3       CLT            PASSIVE     Enigne MS connector  10Pin GT150
+
+[00054] CYL HEAD
+        SPARK PLU  2       GND            PASSIVE     SPARK PLUG
+
+[00055] ETB 5V
+        ETB CONTR  11      VDD            PASSIVE     ETB_Controller  20Pin MX150
+        ETB GT150  2       Signal_+5V     PASSIVE     ETB  6Pin GT150
+        MICROSQUI  28      VREF           PASSIVE     Microsquirt
+        X1 TOP RP  ETB DRI 10             PASSIVE     Switched 20pin MX150
+        X052       7       VREF           PASSIVE     Enigne MS connector  10Pin GT150
+
+[00056] ETB 12V
+        ETB CONTR  4       VIN            PASSIVE     ETB_Controller  20Pin MX150
+        X1 TOP RP  ETB AND 3              PASSIVE     Switched 20pin MX150
+
+[00057] ETB POS_A
+
+[00058] ETB POS_B
+
+[00059] 45 BLK 8 AWG TO ENGINE CHASSIS ONLY IF NEEDED
+        Accelerat  3       GND            PASSIVE     Accel1Pedal_Pot
+        Accelerat  3       GND            PASSIVE     Accel2Pedal_Pot
+        AMS SHUTD  4       4              PASSIVE     NO
+        BRAKE LIG  3       3              PASSIVE     Header 3
+        ESS CONTA  10      GND            PASSIVE     14 Pin Connector
+        ESS CONTA  11      GND            PASSIVE     14 Pin Connector
+        ESS CONTA  12      GND            PASSIVE     14 Pin Connector
+        ETB CONTR  3       GND            PASSIVE     ETB_Controller  20Pin MX150
+        ETB CONTR  12      GND            PASSIVE     ETB_Controller  20Pin MX150
+        ETB CONTR  14      GND            PASSIVE     ETB_Controller  20Pin MX150
+        F_BrakePr  2       GND            PASSIVE     F_BrakePressureTransducer  3 Pin GT150
+        FL SUSP T  2       2              PASSIVE     Header 3
+        FRONT PDU  6       GND            PASSIVE     Please cross reference PCB before pinning
+        FRONT PDU  7       GND            PASSIVE     Please cross reference PCB before pinning
+        FRONT PDU  8       GND            PASSIVE     Please cross reference PCB before pinning
+        FR SUSP T  2       2              PASSIVE     Header 3
+        IMD MX150  E       3              PASSIVE     CROSS REFERENCE WITH BOARD AND CONNECTOR
+        IMD MX150  KE      4              PASSIVE     CROSS REFERENCE WITH BOARD AND CONNECTOR
+        IMD MX150  KI.31b  1              PASSIVE     CROSS REFERENCE WITH BOARD AND CONNECTOR
+        IMD SHUTD  4       4              PASSIVE     NO
+        ISO BOARD  2       GND            PASSIVE     Header 1
+        J1 Kelly   GND     5              PASSIVE     Header 14
+        J1 Kelly   GND SIG 7              PASSIVE     Header 14
+        J1 Kelly   GND SIG 14             PASSIVE     Header 14
+        J1 Kelly   GND SIG 13             PASSIVE     Header 14
+        J1 Kelly   GND SIG 2              PASSIVE     Header 14
+        P?         1       GND            PASSIVE     Dash
+        P?         GND     4              PASSIVE     Header 10
+        R?         1       1              PASSIVE     Res1
+        R_BrakePr  2       GND            PASSIVE     R_BrakePressureTransducer  3 Pin GT150
+        REAR WHEE  5       5              PASSIVE     Header 6
+        REAR WHEE  6       6              PASSIVE     Header 6
+        RL SUSP T  2       2              PASSIVE     Header 3
+        RR SUSP T  2       2              PASSIVE     Header 3
+        SSOK LAMP  2       GND            PASSIVE     SSOK Lamp Left
+        SSOK LAMP  2       GND            PASSIVE     SSOK Lamp Right
+        TSAL GT15  3       3              PASSIVE     Header 2X2
+        X1 TOP RP  GND     16             PASSIVE     Switched 20pin MX150
+        X2 BOTTOM  GND     20             PASSIVE     Switched 20pin MX150
+        X011       2       2              PASSIVE     StarterMotor
+        X043       2       GND            PASSIVE     GYRO  4 PIN HEADER-BASED CONNECTOR
+        X044       2       GND            PASSIVE     LOGGER  Spliced USB
+        X046       2       2              PASSIVE     Shift Piston  4 Pin GT150
+
+[00060] GND 1
+        127 PIN M  2       GND            PASSIVE     MABX
+
+[00061] GND1
+        FL Wheel   2       GND            PASSIVE     FL_Wheel_Speed_Sensor  3 Pin GT150
+        FR Wheel   2       GND            PASSIVE     FR_Wheel_Speed_Sensor  3 Pin GT150
+
+[00062] GND 3
+        ENGINE FA  2       GND            PASSIVE     ENG_Fan  2Pin GT150
+
+[00063] GND 4
+        Shifter    4       GND            PASSIVE     Shifter_Valves 4 Pin GT150
+
+[00064] GND 5
+        BRAKE SOL  2       GND            PASSIVE     Brake Solenoid  2Pin GT150
+        STARTER R  2       GND            PASSIVE     Starter Relay  2Pin GT150
+
+[00065] GND 6
+        MICROSQUI  20      ANALOG GND     PASSIVE     Microsquirt
+        MICROSQUI  21      GND            PASSIVE     Microsquirt
+        MICROSQUI  22      GND            PASSIVE     Microsquirt
+        MICROSQUI  23      GND            PASSIVE     Microsquirt
+        X052       25      GND            PASSIVE     Enigne MS connector  10Pin GT150
+
+[00066] GND MULTI CONDO BLACK
+        ETB GT150  4       Signal_GND     PASSIVE     ETB  6Pin GT150
+
+[00067] GREEN 20 AWG
+        ETB CONTR  5       INA            PASSIVE     ETB_Controller  20Pin MX150
+
+[00068] GREEN-BLK 20 AWG
+        ETB CONTR  10      INB            PASSIVE     ETB_Controller  20Pin MX150
+        MICROSQUI  29      SPARK CUT      PASSIVE     Microsquirt
+
+[00069] HIGH: BLUE LOW: BROWN
+
+[00070] HIGH: PURPLE LOW: YELLOW
+
+[00071] IGN 12V
+        X1 TOP RP  IGNITIO 7              PASSIVE     Switched 20pin MX150
+
+[00072] INJ 12V
+        X1 TOP RP  INJECTO 6              PASSIVE     Switched 20pin MX150
+        X052       22      INJ 12V        PASSIVE     Enigne MS connector  10Pin GT150
+
+[00073] MAT
+        MICROSQUI  26      MAT            PASSIVE     Microsquirt
+        X052       4       IAT            PASSIVE     Enigne MS connector  10Pin GT150
+
+[00074] MIDPACK
+        P?         3       3              PASSIVE     Header 3
+
+[00075] MIDPACK_ALLOWED
+        P?         1       1              PASSIVE     Header 3
+
+[00076] MIDPACK_IN
+        P?         2       2              PASSIVE     Header 3
+
+[00077] MULTI COND BLACK SHEILDED 20 AWG
+        ETB CONTR  2       OUTB           PASSIVE     ETB_Controller  20Pin MX150
+        ETB GT150  6       MotorB         PASSIVE     ETB  6Pin GT150
+
+[00078] MULTI COND BLK SHEILDED 20 AWG
+        ETB GT150  1       Signal_out1    PASSIVE     ETB  6Pin GT150
+        MICROSQUI  27      TPS            PASSIVE     Microsquirt
+
+[00079] MULTI COND SHEILDED BLK 20 AWG
+        ETB GT150  3       Signal_out2    PASSIVE     ETB  6Pin GT150
+
+[00083] N00000
+
+[00084] N00000
+
+[00085] N00000
+
+[00086] NetX1 TOP RPDU_IGNITION COIL
+        X1 TOP RP  IGNITIO 8              PASSIVE     Switched 20pin MX150
+
+[00094] NetP?_CAN L
+        P?         CAN L   2              PASSIVE     Header 10
+
+[00095] NetP?_CAN H
+        P?         CAN H   1              PASSIVE     Header 10
+
+[00096] 37 WHITE 20 AWG
+        RL SUSP T  3       3              PASSIVE     Header 3
+
+[00097] 36 WHITE 20 AWG
+        RR SUSP T  3       3              PASSIVE     Header 3
+
+[00098] 35 WHITE 20 AWG
+        FL SUSP T  3       3              PASSIVE     Header 3
+
+[00099] 34 WHITE 20 AWG
+        FR SUSP T  3       3              PASSIVE     Header 3
+
+[00100] N00000
+
+[00101] N00000
+
+[00102] N00000
+
+[00103] N00000
+
+[00104] N00000
+
+[00105] N00000
+
+[00106] Net20A STATOR FUSE_2
+        20A STATO  2       2              PASSIVE     20A Stator Fuse
+        GLVMS GRO  Z1      Z1             PASSIVE     GLVMS
+
+[00114] Net_1
+                   1       A              PASSIVE     Antenna
+        P?         5       5              PASSIVE     Header 10
+
+[00129] NetAMS SHUTDOWN NO HARNESS_2
+        AMS SHUTD  2       2              PASSIVE     NO
+        IMD SHUTD  1       1              PASSIVE     NO
+
+[00132] NetBIG CABLE GLANDS_1
+        BIG CABLE  1       TS+            PASSIVE     Header 2
+        Motor Con  1       B+             PASSIVE     Header 3
+        Motor Ter  B+      B+             PASSIVE     MHDR1X2
+
+[00133] NetBIG CABLE GLANDS_2
+        BIG CABLE  2       TS-            PASSIVE     Header 2
+        Motor Con  3       B-             PASSIVE     Header 3
+
+[00135] NetENGINE STATOR MOTOR SPADE_1
+        ENGINE ST  1       1              PASSIVE     2x Spade
+        STATOR RE  7       Stator A       PASSIVE     Stator Rectifier
+
+[00136] NetENGINE STATOR MOTOR SPADE_2
+        ENGINE ST  2       2              PASSIVE     2x Spade
+        STATOR RE  8       Stator B       PASSIVE     Stator Rectifier
+
+[00137] NetESS CONTAINER 10 PIN MX150 PANEL MOUNT_1
+        ESS CONTA  1       TSMS 12V       PASSIVE     14 Pin Connector
+        ESS CONTA  2       TSMS 12V       PASSIVE     14 Pin Connector
+        TSMS MOUN  1       COMMON         PASSIVE     TSMS
+
+[00142] NetFPDU NonSw 20 Pin MX150 PWR OUT_1
+        FPDU NonS  1       PI 5V          PASSIVE     Please cross reference PCB before pinning
+
+[00143] NetFPDU NonSw 20 Pin MX150 PWR OUT_2
+        FPDU NonS  2       GYRO 5V        PASSIVE     Please cross reference PCB before pinning
+
+[00147] NetFPDU NonSw 20 Pin MX150 PWR OUT_9
+        FPDU NonS  9       MESH 12V       PASSIVE     Please cross reference PCB before pinning
+
+[00148] NetFPDU NonSw 20 Pin MX150 PWR OUT_10
+        FPDU NonS  10      LOGGER 12V     PASSIVE     Please cross reference PCB before pinning
+
+[00173] NetLEFT BRB_1
+        LEFT BRB   1       1              PASSIVE     Left BRB
+        RIGHT BRB  2       2              PASSIVE     Right BRB
+
+[00175] NetMAIN INSTRUMENTATION FUSE_2
+        MAIN INST  2       2              PASSIVE     20A  MainLoadFuseB
+        RIGHT BRB  1       1              PASSIVE     Right BRB
+
+[00176] NetMICROSQUIRT_1
+        MICROSQUI  1       +12V           PASSIVE     Microsquirt
+        X2 BOTTOM  MS      7              PASSIVE     Switched 20pin MX150
+
+[00185] NetMICROSQUIRT_13
+        MICROSQUI  13      RxOut          PASSIVE     Microsquirt
+        SERIAL CO  2       Rx             PASSIVE     Serial_Connector
+
+[00186] NetMICROSQUIRT_14
+        MICROSQUI  14      TxOut          PASSIVE     Microsquirt
+        SERIAL CO  3       Tx             PASSIVE     Serial_Connector
+
+[00190] NetMICROSQUIRT_19
+        MICROSQUI  19      SERIAL GND     PASSIVE     Microsquirt
+        SERIAL CO  5       GND            PASSIVE     Serial_Connector
+
+[00194] NetMotor Controller Al Bars_2
+        Motor Con  2       M-             PASSIVE     Header 3
+        Motor Ter  M-      M-             PASSIVE     MHDR1X2
+
+[00197] NetFPDU NonSw 20 Pin MX150 PWR OUT_6
+        FPDU NonS  6       DASH 12V       PASSIVE     Please cross reference PCB before pinning
+        P?         2       +12V           PASSIVE     Dash
+
+[00199] CAN CHANNEL 2 H
+        ESS CONTA  1       1              PASSIVE     Header 2
+        ESS CONTA  2       2              PASSIVE     Header 2
+        J1 Kelly   CAN BUS 10             PASSIVE     Header 14
+        J1 Kelly   CAN BUS 11             PASSIVE     Header 14
+        P?         3       CANH           PASSIVE     Dash
+        P?         4       CANL           PASSIVE     Dash
+        X2 BOTTOM  CANH    2              PASSIVE     Switched 20pin MX150
+        X2 BOTTOM  CANL    1              PASSIVE     Switched 20pin MX150
+
+[00201] NetP?_5V PWR
+        P?         5V PWR  3              PASSIVE     Header 10
+
+[00208] NetShifter_2
+        Shifter    2       Shift_Down     PASSIVE     Shifter_Valves 4 Pin GT150
+        X2 BOTTOM  SHIFTDN 3              PASSIVE     Switched 20pin MX150
+
+[00209] NetShifter_5
+        Shifter    5       Shift_Up       PASSIVE     Shifter_Valves 4 Pin GT150
+        X2 BOTTOM  SHIFT U 8              PASSIVE     Switched 20pin MX150
+
+[00210] NetSPARK PLUG_1
+        SPARK PLU  1       +12V           PASSIVE     SPARK PLUG
+        SPARK PLU  3       HV TO PLUG     PASSIVE     Spark Plug Coil
+
+[00211] NetSPARK PLUG COIL_1
+        SPARK PLU  1       +12V           PASSIVE     Spark Plug Coil
+        SPARK PLU  1       1              PASSIVE     Coil Connector  6Pin GT150
+
+[00212] NetSPARK PLUG COIL_2
+        SPARK PLU  2       TTL GND        PASSIVE     Spark Plug Coil
+        SPARK PLU  3       3              PASSIVE     Coil Connector  6Pin GT150
+
+[00213] NetSPARK PLUG COIL_4
+        SPARK PLU  4       BATT -         PASSIVE     Spark Plug Coil
+        SPARK PLU  5       5              PASSIVE     Coil Connector  6Pin GT150
+
+[00214] NetSPARK PLUG COIL_5
+        SPARK PLU  5       TRIGGER        PASSIVE     Spark Plug Coil
+        SPARK PLU  2       2              PASSIVE     Coil Connector  6Pin GT150
+
+[00215] NetSPARK PLUG COIL_6
+        SPARK PLU  6       CYL HEAD GND   PASSIVE     Spark Plug Coil
+        SPARK PLU  4       4              PASSIVE     Coil Connector  6Pin GT150
+
+[00221] NetTSAL_1
+        TSAL       1       1              PASSIVE     TSAL  12V 0.3A
+        TSAL GT15  2       2              PASSIVE     Header 2X2
+
+[00222] NetTSAL_2
+        TSAL       2       2              PASSIVE     TSAL  12V 0.3A
+        TSAL GT15  4       4              PASSIVE     Header 2X2
+
+[00223] NetTS IN_1
+        TS IN      1       1              PASSIVE     Header 2
+
+[00224] NetTS IN_2
+        TS IN      2       2              PASSIVE     Header 2
+
+[00225] NetU?_1
+        U?         1       +5V            PASSIVE     Shifter_HallSensor_Up
+        U?         1       +5V            PASSIVE     Shifter_HallSensor_Down
+
+[00226] NetU?_3
+        U?         3       GND            PASSIVE     Shifter_HallSensor_Up
+        U?         3       GND            PASSIVE     Shifter_HallSensor_Down
+
+[00230] NetX1 TOP RPDU_FPOUT
+        X1 TOP RP  FPOUT   5              PASSIVE     Switched 20pin MX150
+
+[00256] NetX043_1
+        X043       1       +5V            PASSIVE     GYRO  4 PIN HEADER-BASED CONNECTOR
+
+[00257] NetX044_1
+        X044       1       +12V           PASSIVE     LOGGER  Spliced USB
+
+[00258] NetX1 TOP RPDU_SHIFTER HES
+        X1 TOP RP  SHIFTER 4              PASSIVE     Switched 20pin MX150
+        X046       1       1              PASSIVE     Shift Piston  4 Pin GT150
+
+[00268] ORANGE 20 AWG
+        ETB CONTR  6       ENA/DIAGA      PASSIVE     ETB_Controller  20Pin MX150
+
+[00269] PACK+
+        P?         2       2              PASSIVE     Header 3
+
+[00270] PRECHARGED
+
+[00271] PURPLE 20AWG
+        MICROSQUI  5       LAUNCH CTRL    PASSIVE     Microsquirt
+
+[00272] TS+
+        P?         1       1              PASSIVE     Header 3
+
+[00273] TSMS 12V
+
+[00274] WHITE-BLK 20 AWG
+        BOOTLOADE  2       2              PASSIVE     2 Pin GT150
+        MICROSQUI  15      Bootloader     PASSIVE     Microsquirt
+
+[00275] MAP
+        MICROSQUI  9       INJ1           PASSIVE     Microsquirt
+        MICROSQUI  12      IGN1           PASSIVE     Microsquirt
+        MICROSQUI  24      MAP            PASSIVE     Microsquirt
+        MICROSQUI  32      VR1+           PASSIVE     Microsquirt
+        MICROSQUI  33      VR1-           PASSIVE     Microsquirt
+        X052       1       VR +           PASSIVE     Enigne MS connector  10Pin GT150
+        X052       2       VR -           PASSIVE     Enigne MS connector  10Pin GT150
+        X052       5       MAP            PASSIVE     Enigne MS connector  10Pin GT150
+        X052       8       INJ 1          PASSIVE     Enigne MS connector  10Pin GT150
+
+[00277] BrakePressure0
+
+[00278] BrakePressure1
+
+[00279] Dash[..]
+
+[00281] Dash 1
+        ETB CONTR  9       ENB/DIAGB      PASSIVE     ETB_Controller  20Pin MX150
+        U?         2       Output         PASSIVE     Shifter_HallSensor_Down
+        U?         2       Output         PASSIVE     Shifter_HallSensor_Up
+        X046       3       3              PASSIVE     Shift Piston  4 Pin GT150
+        X046       4       4              PASSIVE     Shift Piston  4 Pin GT150
+
+[00283] Engine_Status[..]
+
+[00284] Engine_Tps[..]
+
+[00285] Engine_VRef[..]
+
+[00286] PEDALPOT2
+
+[00288] WheelSpeed0
+
+[00289] WheelSpeed1
+
+[00290] WheelSpeed2
+
+[00291] WheelSpeed3
